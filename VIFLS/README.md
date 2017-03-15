@@ -1,5 +1,2 @@
-# TTK4105-Reguleringsteknikk
-Scripts som gjør studasslivet enklere
-
-VIFLS - Videoinnholdsfortegnelses Latex-skaper <br>
+# VIFLS - Videoinnholdsfortegnelses Latex-skaper
 * Automatiserer prosessen med å lage Latex-koden til hver forelesning i videoinnholdsfortegnelsen.
