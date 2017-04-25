@@ -27,8 +27,7 @@ def readDataFromFile():
 
 
 def createBulletPointList(url,data):
-	bps = data.split('---Kulepunkter---\n')[1].split('\n---Slutt---')[0]
-	bps = bps.split('\n')
+	bps = data.split('---Kulepunkter---\n')[1].split('\n---Slutt---')[0].split('\n')
 	bpList = []
 	for bp in bps:
 		time = bp.split(' - ')[0]
