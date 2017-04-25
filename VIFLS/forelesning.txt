@@ -1,0 +1,12 @@
+Ukedag: Fredag
+Dato: 23.03.2017
+Time: første
+Url: https://mediasite.ntnu.no/Mediasite/Play/c8e7d7274cde4cfbbb8e147bf092d61a1d?catalog=cf2e4efb-25f5-44ff-b488-95876a98d204
+Litteratur: Kapittel test
+Tema: Testing
+Nøkkelord: Test
+---Kulepunkter---
+13:20 - Lalalala
+29:50 - Lelelele
+45:00 - Done
+---Slutt---

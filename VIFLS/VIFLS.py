@@ -4,27 +4,36 @@
 import os
 
 def main():
-	day = input("Ukedag: ")
-	date = input("Dato: ")
-	part = input("Time: ")
-	url = input("Url: ")
-	literature = input("Litteratur: ")
-	themes = input("Tema: ")
-	keywords = input("Nøkkelord: ")
-	bpList = createBulletPointList(url)
+	data = readDataFromFile()
+	day = data.split('Ukedag: ')[1].split('\n')[0]
+	date = data.split('Dato: ')[1].split('\n')[0]
+	part = data.split('Time: ')[1].split('\n')[0]
+	url = data.split('Url: ')[1].split('\n')[0]
+	literature = data.split('Litteratur: ')[1].split('\n')[0]
+	themes = data.split('Tema: ')[1].split('\n')[0]
+	keywords = data.split('Dato: ')[1].split('\n')[0]
+	bpList = createBulletPointList(url,data)
 	latexCode = buildLatex(day, date, url, part, literature, themes, keywords, bpList)
 	copyTextToClipboard(latexCode)
 	print("\n *Latex-koden er kopiert til utklippstavlen.* \n *Ha en fin dag videre!*")
 
-def createBulletPointList(url):
-	print("\n *Kulepunktsliste* \n")
+def readDataFromFile():
+	f = open("forelesning.txt",'r')
+	dataString = ""
+	for line in f:
+		dataString += line
+	print(dataString)
+	return dataString
 
+
+def createBulletPointList(url,data):
+	bps = data.split('---Kulepunkter---\n')[1].split('\n---Slutt---')[0]
+	bps = bps.split('\n')
 	bpList = []
-	while(True):
-		time = input("Tidspunkt: ")
-		if(time == ""): break
+	for bp in bps:
+		time = bp.split(' - ')[0]
 		formattedTime = (int(time.split(":")[0])*60 + int(time.split(":")[1]))*1000 #Index 0 er antall minutter, index 1 er antall sekunder, "?playfrom=formattedTime"
-		text = input("Kulepunkt: ")
+		text = bp.split(' - ')[1].split('\n')[0]
 		bpList.append("\item \href{%s?playFrom=%s}{%s -- %s}" % (url, str(formattedTime), time, text))
 	return bpList
 
