@@ -5,7 +5,7 @@ Url: https://mediasite.ntnu.no/Mediasite/Play/78a2e71b9047498591f4f1b70e1a9e541d
 Litteratur: Repetisjon
 Tema: Repetisjon
 Nøkkelord: Valg av regulator, Stabilitetsanalyse, Fasemargin, Forsterkningsmargin
----Kulepunkter---
+---Kulepunkt---
 01:56 - Stabilitetsundersøkelse av andre ordens system ved å se på nevneren koeffisienter
 02:58 - Tronds tips til hvordan man besvarer en eksamensoppgave
 03:32 - \textbf{X8.19: }Vannkraftverk (repetisjon av valg av regulator)
