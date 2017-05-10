@@ -8,7 +8,7 @@ Nøkkelord: Valg av regulator, Stabilitetsanalyse, Fasemargin, Forsterkningsmarg
 ---Kulepunkt---
 01:56 - Stabilitetsundersøkelse av andre ordens system ved å se på nevneren koeffisienter
 02:58 - Tronds tips til hvordan man besvarer en eksamensoppgave
-03:32 - \textbf{X8.19: }Vannkraftverk (repetisjon av valg av regulator)
+03:32 - X8.19: Vannkraftverk (repetisjon av valg av regulator)
 11:35 - Metoder for å bestemme om regulator trenger integralvirkning 
 14:50 - Hvordan faseforløpet må se ut for at systemet skal være stabilt
 16:40 - Stabilitetsanalyse i Nicholsdiagram
