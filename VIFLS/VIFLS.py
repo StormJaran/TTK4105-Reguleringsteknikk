@@ -11,7 +11,7 @@ def main():
 	url = data.split('Url: ')[1].split('\n')[0]
 	literature = data.split('Litteratur: ')[1].split('\n')[0]
 	themes = data.split('Tema: ')[1].split('\n')[0]
-	keywords = data.split('Dato: ')[1].split('\n')[0]
+	keywords = data.split('Nøkkelord: ')[1].split('\n')[0]
 	bpList = createBulletPointList(url,data)
 	latexCode = buildLatex(day, date, url, part, literature, themes, keywords, bpList)
 	copyTextToClipboard(latexCode)

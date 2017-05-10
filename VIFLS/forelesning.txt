@@ -1,12 +1,20 @@
-Ukedag: Fredag
-Dato: 23.03.2017
-Time: første
-Url: https://mediasite.ntnu.no/Mediasite/Play/c8e7d7274cde4cfbbb8e147bf092d61a1d?catalog=cf2e4efb-25f5-44ff-b488-95876a98d204
-Litteratur: Kapittel test
-Tema: Testing
-Nøkkelord: Test
+Ukedag: Tirsdag
+Dato: 25.04.2017
+Time: andre
+Url: https://mediasite.ntnu.no/Mediasite/Play/78a2e71b9047498591f4f1b70e1a9e541d?catalog=cf2e4efb-25f5-44ff-b488-95876a98d204
+Litteratur: Repetisjon
+Tema: Repetisjon
+Nøkkelord: Valg av regulator, Stabilitetsanalyse, Fasemargin, Forsterkningsmargin
 ---Kulepunkter---
-13:20 - Lalalala
-29:50 - Lelelele
-45:00 - Done
+01:56 - Stabilitetsundersøkelse av andre ordens system ved å se på nevneren koeffisienter
+02:58 - Tronds tips til hvordan man besvarer en eksamensoppgave
+03:32 - \textbf{X8.19: }Vannkraftverk (repetisjon av valg av regulator)
+11:35 - Metoder for å bestemme om regulator trenger integralvirkning 
+14:50 - Hvordan faseforløpet må se ut for at systemet skal være stabilt
+16:40 - Stabilitetsanalyse i Nicholsdiagram
+17:24 - Fasemargin
+17:49 - Forsterkningsmargin
+20:50 - Stabilitetsanalyse ved hjelp av avviksforholdet N(s)
+21:48 - Hva skjer i et Nicholsdiagram når man øker forsterkningen til et system?
+24:28 - Stabiliteten til et lineært system påvirkes ikke av forstyrrelser
 ---Slutt---
